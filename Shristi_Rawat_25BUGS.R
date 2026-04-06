@@ -13,8 +13,8 @@
 # BUG 1 - Missing assignment operator
 name "Shristi"                    # BUG 1: missing <-
 cat(name)
-# FIX:
-
+# FIX: name <-"shristi"               #added <- assigment operator
+cat(name)
 # BUG 2 - Wrong function name for printing
 Print("Hello World")              # BUG 2: R uses print() lowercase
 # FIX:
