@@ -50,7 +50,7 @@ upper <- toupper(my_name)
 cat("Upper name:",upper)
 # BUG 7 - Incorrect comparison operator
 age <- 18
-cat(age = 18)                     #
+cat(age = 18)                     
 # FIX:used == for comparision instead of =
 age <- 18
 cat(age ==18)                   
