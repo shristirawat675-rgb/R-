@@ -31,7 +31,7 @@ x <- "R"
 y <- "Programming"
 z <- x - y                       
 cat(z)
-# FIX:used paste()for string concatenation instead of subtraction
+# FIX:used paste()for string concatenation instead of subtraction.
 x <- "R"
 y <- "Programming"
 z <- paste(x,y)
